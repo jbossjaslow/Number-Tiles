@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ImageBit" representedClassName="ImageBit" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="SelectedImage" representedClassName="SelectedImage" syncable="YES" codeGenerationType="class">
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+    </entity>
+    <entity name="Task" representedClassName="Task" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Task" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="SelectedImage" positionX="-54" positionY="0" width="128" height="58"/>
+        <element name="ImageBit" positionX="-18" positionY="36" width="128" height="60"/>
+    </elements>
+</model>
